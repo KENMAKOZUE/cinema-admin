@@ -1,0 +1,30 @@
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.action-btn {
+    border: none;
+    padding: 16px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(252, 43, 43);;
+}
+
+.action-btn:hover {
+    background-color: rgb(255, 86, 86);
+    border-radius: 30px;
+}
+
+#content {
+    width: 500px;
+    margin: 0 auto;
+    background-color: rgb(255, 86, 86);
+    border-radius: 20px;
+    padding: 16px;
+    display: flex;
+}
